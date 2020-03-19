@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    height: 30px;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+}
+
+.left-nav {
+    padding-left: 10px;
+}
+
+.right-nav {
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.google-apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+ul {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+}
+
+.center-logo img {
+    height: 100px;
+    width: 300px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+}
+
+.search-form {
+    margin: 35px;
+}
+
+.search-box {
+    width: 540px;
+    height: 45px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+}
+
+.search-box .input-box {
+    border: none;
+    outline: none;
+    line-height: 40px;
+    float: left;
+    margin-left: 20px;
+}
+
+.google-mic {
+    float:right;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+
+.google-mic img:hover {
+    cursor: pointer;
+}
+
+.btn-area button {
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-area button:hover {
+    border: 1px solid grey;
+    box-shadow: 0 1px 1px grey;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    font-size: 15px;
+    bottom: 1px;
+    height: 50px;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+.footer-left-nav {
+    display: flex;
+    width: 80%;
+    padding-left: 5px;
+
+}
+
+.footer-right-nav {
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+
+.footer ul a {
+    text-decoration: none;
+}
